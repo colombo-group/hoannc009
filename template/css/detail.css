@@ -124,3 +124,7 @@
 .list-title span {
     padding-left: 10px;
 }
+#body-detail-2 .row img {
+    width: 250px;
+    height: 180px;
+}

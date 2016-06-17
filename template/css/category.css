@@ -2,6 +2,11 @@
     background-color: #ffffff;
     padding: 20px 20px;
 }
+
+#body-cate-2 img {
+    width: 250px;
+    height: 180px;
+}
 #body-cate-3 {
     margin-top: 5px;
     margin-bottom: 30px;
@@ -52,6 +57,7 @@
 
 }
 #page .pagination > li > a {
+    color: #999999;
     float: none;
     padding: 15px 12px;
     border-radius: 4px;
@@ -61,4 +67,17 @@
 #page .pagination > li > a:hover {
     color: #ffffff;
     background-color: #ff4488;
+}
+
+.post .title {
+    padding: 10px 10px;
+    color: #ffffff;
+    font-size: 20px;
+    height: 80px;
+    background-color: #ff4488;
+    position: relative;
+    bottom: 80px;
+}
+#body-cate-3 .media {
+    margin-top: 0;
 }

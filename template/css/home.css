@@ -15,9 +15,16 @@ body{
 #social {
 	text-align: right;
 }
+#social img {
+	padding-right: 20px;
+}
 #logo {
 	text-align: center;
 	font-size: 50px;
+}
+#input {
+	width: 200px;
+	border-bottom: 1px solid #ffa2c4;
 }
 #input button{
 	background-color: transparent;
@@ -26,10 +33,11 @@ body{
 #input input{
 	background: #ff4488;
 	border: none;
-	border-bottom: 1px solid;
 }
+
+
 #input input::-webkit-input-placeholder {
-	color: pink;
+	color: #ffffff;
 }
 .menu {
 	text-transform: uppercase;
@@ -127,6 +135,10 @@ body{
 	font-size: 15px;
 	font-weight: bold;
 	padding: 10px 20px;
+}
+.caption2 a{
+	text-decoration: none;
+	color: #ff4488;
 }
 #body1-center .row .thumbnail-top:first-child {
 	padding-left: 20px;

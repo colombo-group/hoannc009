@@ -3,7 +3,7 @@ body{
 }
 
 #header {
-	height: 150px;
+	height: 140px;
 	background-color: #ff4488;
 	color: #ffffff;
 }
@@ -48,6 +48,18 @@ body{
 }
 .menu span {
 	padding-right: 10px;
+}
+
+/*.menu .active a{*/
+	/*background-color: #d32967;*/
+/*}*/
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #ffffff;
+	background-color: #d32967;
+}
+.navbar-nav > li > a {
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 /*.menu .navbar{*/
 	/*background-color: #ff4488;*/

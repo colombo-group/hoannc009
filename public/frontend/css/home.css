@@ -1,0 +1,159 @@
+
+
+/*TOP*/
+#top {
+	margin-top: 50px;
+}
+.carousel-control {
+	width: 20px;
+}
+.items {
+	color: #ffffff;
+	position: relative;
+	padding: 0px 2px;
+	/*width: 280px*/
+}
+.items .title{
+	position: absolute;
+	bottom: 40px;
+	left: 40px;
+}
+#top .title div:nth-child(2) {
+	padding-top: 10px;
+}
+/*End TOP*/
+/*BANNER*/
+#banner {
+	margin-top: 15px;
+}
+
+/*End BANNER*/
+
+/*Body1*/
+#body1 {
+	margin-bottom: 30px;
+}
+.list-cate {
+	background-color: #ffffff;
+}
+.list-cate {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.list-cate a{
+	text-decoration: none;
+	color: #333333;
+}
+.list-cate .media {
+	padding: 0px 10px 0 10px;
+	border-bottom: 2px solid #f7f3f3;
+}
+.list-cate .media-heading {
+	font-size: 11px;
+	font-weight: bold;
+}
+.list-cate .time {
+	font-size: 11px;
+}
+#body1-center {
+	background-color: #ffffff;
+}
+#body1-center .caption1 {
+	padding: 10px 20px;
+}
+#body1-center .caption1 a {
+	color: #ff4488;
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#body1-center .content {
+	color: #808080;
+	font-size: 13px;
+	padding: 10px 20px;
+}
+.caption2 {
+	color: #ff4488;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px 20px;
+}
+.caption2 a{
+	text-decoration: none;
+	color: #ff4488;
+}
+#body1-center .row .thumbnail-top:first-child {
+	padding-left: 20px;
+}
+#body1-center .row .thumbnail-top:nth-child(1) {
+	padding-right: 20px;
+}
+#body2 {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+#body2 a{
+	text-decoration: none;
+}
+#body2 .panel {
+	background-color: #ffffff;
+}
+
+#body .panel-heading {
+
+	padding-top: 10px;
+	position: relative;
+	left: -30px;
+}
+#body .panel-heading div a {
+	color: #ffffff;
+	font-weight: bold;
+}
+#body .panel-heading img {
+	display: inline;
+}
+
+#body .panel-heading div:first-child{
+	display: inline;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 10px;
+	width: 200px;
+	height: 35px;
+	background-color: #f34764;
+	position: relative;
+	bottom: -1px;
+	left: 4px;
+}
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-bottom: 10px solid transparent;
+	border-right: 10px solid #be1f3a;
+	position: relative;
+	left: 4px;
+}
+
+#body2 .thumbnail-top div{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 2px solid #f7f3f3;
+}
+#body2 .thumbnail-top div a{
+	color: #ff4488;
+}
+#body2 .thumbnail-top ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+#body2 .thumbnail-top ul li a{
+	color: #333333;
+}
+
+/*End-body1*/

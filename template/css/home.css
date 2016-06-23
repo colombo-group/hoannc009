@@ -24,6 +24,7 @@ body{
 }
 #input {
 	width: 200px;
+	height: 25px;
 	border-bottom: 1px solid #ffa2c4;
 }
 #input button{
@@ -31,6 +32,7 @@ body{
 	border: none;
 }
 #input input{
+	width: 170px;
 	background: #ff4488;
 	border: none;
 }
@@ -57,21 +59,28 @@ body{
 	color: #ffffff;
 	background-color: #d32967;
 }
+.menu ul li {
+	border-right: 2px solid #ff7cac;
+	border-radius: 3px;
+}
+.navbar-nav > li:first-child{
+	padding-left: 0px;
+}
+.navbar-nav > li {
+	padding-right: 5px;
+	padding-left: 5px;
+}
 .navbar-nav > li > a {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
-/*.menu .navbar{*/
-	/*background-color: #ff4488;*/
-	/*border: none;*/
-/*}*/
-
 .navbar-default .navbar-nav > li > a {
 	 color: #ffffff;
  }
 
 .navbar-default .navbar-nav > li > a:hover {
 	color: #ffff00;
+	background-color: #d32967;
 }
 
 /*TOP*/

@@ -26,10 +26,10 @@
                     </form>
                 </div>
             </div>
-            <div id="logo" class="col-md-4 col-xs-6">
+            <div id="logo" class="col-md-6 col-xs-6">
                 H-Phượt
             </div>
-            <div id="social" class="col-md-2 col-xs-3">
+            <div id="social" class="col-md-2 col-xs-4">
                 <a href=""><img src="{{asset('/frontend/images/f.png')}}"></a>
                 <a href=""><img src="{{asset('/frontend/images/icon2.png')}}"></a>
                 <a href=""><img src="{{asset('/frontend/images/g.png')}}"></a>
@@ -37,13 +37,7 @@
 
             </div>
             <div class="auth col-md-2">
-                @if(Auth::check())
-                    Xin chào <a href=""> {{Auth::user()->name}}</a>
-                    <a href="/auth/logout">Đăng xuất </a>
-                @else
-                    <a href="/auth/login">Đăng nhập </a>
-                    <a href="/auth/register">Đăng ký </a>
-                @endif
+
             </div>
 
         </div>
@@ -56,7 +50,13 @@
                     <li><a href="">Miền Nam</a></li>
                     <li><a href="">Nước ngoài</a></li>
                     <li><a href="">Tin tức</a></li>
-                    <li><a href="">Kinh nghiệm</a></li>
+                    @if(Auth::check())
+                        <li><a href=""> {{Auth::user()->name}}</a></li>
+                        <li><a href="/auth/logout">Đăng xuất </a></li>
+                    @else
+                        <li><a href="/auth/login">Đăng nhập </a></li>
+                        <li><a href="/auth/register">Đăng ký </a></li>
+                    @endif
                 </ul>
             </nav>
         </div>

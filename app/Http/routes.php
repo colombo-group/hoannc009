@@ -20,9 +20,9 @@ Route::get('/category', function () {
 Route::get('/detail', function () {
     return view('frontend.detail');
 });
-//Route::get('/login', function () {
-//    return view('frontend.login');
-//});
+Route::get('/face', function () {
+    return view('auth.face');
+});
 //Route::get('/register', function () {
 //    return view('frontend.register');
 //});
@@ -32,7 +32,18 @@ Route::get('/detail', function () {
 Route::get('auth/login', 'Auth\AuthController@getLogin');
 Route::post('auth/login', 'Auth\AuthController@postLogin');
 Route::get('auth/logout', [ 'uses' => 'Auth\AuthController@logout']);
-
+//Route::get('auth/github', 'Auth\AuthController@redirectToProvider');
+//Route::get('auth/github/callback', 'Auth\AuthController@handleProviderCallback');
+Route::get('auth/redirect/{social}', 'Auth\AuthController@redirect');
+Route::get('auth/callback/{social}', 'Auth\AuthController@callback');
 // Registration routes...
 Route::get('auth/register', 'Auth\AuthController@getRegister');
 Route::post('auth/register', 'Auth\AuthController@postRegister');
+
+/**
+ * Backend
+*/
+
+Route::get('/admin', function () {
+    return view('backend.dashboard');
+});
